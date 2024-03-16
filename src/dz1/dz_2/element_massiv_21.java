@@ -9,26 +9,34 @@ public class element_massiv_21 {
         nums[3] = 4;
         nums[4] = 5;
 
-//                  Цикл for
+        /*
+        Цикл for
+        */
         for (int i = 0; i < nums.length; i++){
             System.out.println("Цикл for: " +nums[i]);
         }
 
-//                    Цикл while
+        /*
+        Цикл while
+         */
         int i = 0;
         while (i < nums.length){
             System.out.println("Цикл while: " +nums[i]);
             i++;
         }
 
-//                    Цикл do while
+        /*
+        Цикл do while
+         */
         int b = 0;
         do {
             System.out.println("Цикл do while: " +nums[b]);
             b++;
         } while (b < nums.length);
 
-//                     Цикл for each
+        /*
+        Цикл for each
+         */
         for (int num:nums) {
             System.out.println("Цикл for each: " +num);
         }
