@@ -6,7 +6,7 @@ public class Object1 {
         for (int i = 0; i < objects.length; i++) {
             System.out.println(objects[i]);
         }
-//        Apple av = new Apple(1, "AV");
+
     }
 
 }
