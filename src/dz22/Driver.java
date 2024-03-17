@@ -1,5 +1,7 @@
 package dz22;
 
+import java.util.Scanner;
+
 public class Driver {
     public static void main (String[] args) {
         driving_experience driver = new driving_experience();
@@ -24,5 +26,16 @@ public class Driver {
             default:
                 System.out.println("Выбраны неверные ключи");
     }
+//        Scanner scan = new Scanner(System.in);
+//        System.out.print("Введите категорию прав: ");
+//        String licence = scan.nextLine();
+//        String licence;
+//        int licence = driver.driexp;
+        if(driver.category == "B") {
+            System.out.println("Категория прав подходит");
+        }
+        else if (driver.category != "B") {
+            System.out.println("Категория прав не подходит");
+        }
     }
 }
