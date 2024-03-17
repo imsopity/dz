@@ -1,8 +1,12 @@
 package dz22;
 
+import java.util.Scanner;
+
 public class keys {
     public static void main(String[] args){
-        int keysswitch = 0;
+        Scanner bscan = new Scanner(System.in);
+        System.out.print("Выберите ключи: ");
+        int keysswitch = bscan.nextInt();
         // 0 - ключи от bmw e34
         // 1 - ключи от ford sierra
         // 2 - ключи от bmw e36
